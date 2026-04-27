@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Group Anagrams (Medium) | Link: https://neetcode.io/problems/anagram-groups | Trigger: group strings by anagram class","Pattern: Hash map by 26-char signature tuple. Aha: same frequency vector means same anagram group. Logic: for each word build 26-count array with +=1, use tuple as key, append word to bucket. Edge cases: empty string, single item, repeated letters. Complexity: O(n*m) time, O(n*m) space.","neetcode,medium,hash-map,anagram-groups"

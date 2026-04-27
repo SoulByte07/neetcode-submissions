@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Top K Frequent Elements (Medium) | Link: https://neetcode.io/problems/top-k-elements-in-list | Trigger: return exactly k most frequent values","Pattern: Frequency map + bucket sort. Aha: frequency range is 1..n, so bucket by count and collect from high to low until k items. Logic: build Counter, place nums into buckets[freq], traverse buckets backward and take first k. Edge cases: ties, k equals number of distinct values. Complexity: O(n) time, O(n) space.","neetcode,medium,bucket-sort,top-k-elements-in-list"

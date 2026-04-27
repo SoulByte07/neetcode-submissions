@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Two Sum (Easy) | Link: https://neetcode.io/problems/two-integer-sum | Trigger: find indices i,j with nums[i] + nums[j] = target","Pattern: Hash map complement lookup. Aha: store needed value (target - num) and match when seen later. Logic: one pass; if num in map return [map[num], i], else map[target-num] = i. Edge cases: duplicate values like [5,5], negatives. Complexity: O(n) time, O(n) space.","neetcode,easy,hash-map,two-integer-sum"

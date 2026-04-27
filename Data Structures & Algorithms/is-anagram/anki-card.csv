@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Valid Anagram (Easy) | Link: https://neetcode.io/problems/is-anagram | Trigger: check if two strings are anagrams","Pattern: Frequency counting. Aha: anagrams have identical per-character counts. Logic: if lengths differ return False; compare Counter(s) == Counter(t) (or 26-count arrays). Edge cases: different lengths, repeated chars. Complexity: O(n) time, O(1) extra space for fixed alphabet.","neetcode,easy,hash-map,is-anagram"

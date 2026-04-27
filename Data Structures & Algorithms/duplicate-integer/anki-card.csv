@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Contains Duplicate (Easy) | Link: https://neetcode.io/problems/duplicate-integer | Trigger: return true if any number appears more than once","Pattern: Hash set frequency check. Aha: duplicate exists as soon as a value repeats. Logic: scan nums; if value in seen return True, else add it; finish with False. Edge cases: all unique values, early duplicate. Complexity: O(n) time, O(n) space.","neetcode,easy,hash-set,duplicate-integer"

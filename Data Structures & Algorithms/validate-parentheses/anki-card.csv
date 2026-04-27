@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Valid Parentheses (Easy) | Link: https://neetcode.io/problems/validate-parentheses | Trigger: verify bracket string is correctly matched and ordered","Pattern: Stack + close-to-open mapping. Aha: each closing bracket must match latest unmatched opening bracket (LIFO). Logic: push opening brackets; on closing, fail if stack empty or top mismatched; end with stack empty. Edge cases: starts with closing bracket, mismatch like [(]), leftover openings. Complexity: O(n) time, O(n) space.","neetcode,easy,stack,validate-parentheses"

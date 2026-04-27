@@ -1,0 +1,2 @@
+Front,Back,Tags
+"Problem: Products of Array Except Self (Medium) | Link: https://neetcode.io/problems/products-of-array-discluding-self | Trigger: compute output[i] without using division","Pattern: Prefix and suffix products. Aha: output[i] = product(left of i) * product(right of i). Logic: prefix pass fills output with left product so far; reverse pass multiplies running right product. Edge cases: one zero, multiple zeros, negatives. Complexity: O(n) time, O(1) extra space excluding output.","neetcode,medium,prefix-suffix,products-of-array-discluding-self"

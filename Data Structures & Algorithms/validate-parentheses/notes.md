@@ -1,0 +1,4 @@
+- Use Stack not 2 pointer
+- create a map instead of arrays of brackets
+- cal the `len(s)`, instaed of get the top
+- `pop()` returns the ele and del
